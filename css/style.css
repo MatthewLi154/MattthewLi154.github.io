@@ -692,6 +692,14 @@ nav#nav-mobile a:hover {
 
 /*Alignment*/
 
+.banner-image-main {
+    width: 40%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
 img {
 
     vertical-align: top;
