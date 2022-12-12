@@ -776,6 +776,10 @@ h6 {
     padding-bottom: 0;
 }
 
+.projects-heading {
+    padding-left: 1rem;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
@@ -876,6 +880,7 @@ h6 {
     object-fit: scale-down;
     margin: 0.5rem;
 }
+
 
 /* --------- 5.2 Parallax Elements ---------- */
 
@@ -1498,6 +1503,40 @@ blockquote {
     color:#b4b4b4;
     line-height:auto;
     margin:0;
+}
+
+#contact-me {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5rem 1rem;
+    /* background-color: lightblue; */
+    height: 40rem;
+
+}
+
+
+.contact-me-links h3 {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
+}
+
+.contact-me-links li {
+    list-style: none;
+    width: 12rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem 3rem;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
